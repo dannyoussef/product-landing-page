@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <img id="header-img" src="images/image1.jpeg" /><b
+        style="padding-left: 10px; font-size: x-large"
+        >Computer Repair Shop</b
+      >
+
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link" style="color: white">Features</a>
+        <a href="#overview" class="nav-link" style="color: white">Overview</a>
+        <a href="#pricing" class="nav-link" style="color: white">Pricing</a>
+      </nav>
+    </header>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <h2>Solving problems is what we do best</h2>
+      <p>Subscribe for tips on virus prevention and hardware maintenance!</p>
+
+      <label for="email" id="email-label">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter an email address"
+          required
+        />
+        <input type="submit" id="submit" />
+      </label>
+    </form>
+
+    <section id="features">
+      <div class="features-section-desc">
+        <div id="reliable-service">
+          <h2 style="text-decoration: underline; text-align: left">
+            Reliable Service
+          </h2>
+          <p style="text-align: left">
+            With over 10+ years of experience and more than 20,000 satisfied
+            customers, rest assured that our top priority is you.
+          </p>
+        </div>
+      </div>
+      <div class="features-section-desc">
+        <div id="professional-diagnosis">
+          <h2 style="text-decoration: underline; text-align: left">
+            Professional Diagnosis
+          </h2>
+          <p style="text-align: left">
+            From your system's hardware, to its applications and software, our
+            comprehensive inspection will ensure that your machine is running at
+            its peak capacity.
+          </p>
+        </div>
+      </div>
+      <div class="features-section-desc">
+        <div id="convenient-assistance">
+          <h2 style="text-decoration: underline; text-align: left">
+            Convenient Assistance
+          </h2>
+          <p style="text-align: left">
+            Can't visit us in-store? Have one of our trained experts help you at
+            the comfort of your own home or office!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="overview">
+      <iframe
+        id="video"
+        width="720"
+        height="420"
+        src="https://www.youtube.com/embed/oGNPT6PnBLc"
+      ></iframe>
+    </div>
+
+    <section id="pricing">
+      <div class="pricing-section-desc">
+        <div class="packages">
+          <div class="levels" id="package-1">Virus Removal</div>
+          <h2>$90</h2>
+          <div class="package-list">
+            <ul>
+              <li>Spyware Detection</li>
+              <li>Malware Elimination</li>
+              <li>Anti-virus Installation</li>
+            </ul>
+          </div>
+          <button type="button" class="select-buttons">Select</button>
+        </div>
+
+        <div class="packages">
+          <div class="levels" id="package-2">Data Recovery & Backup</div>
+          <h2>$300</h2>
+          <div class="package-list">
+            <ul>
+              <li>Portable Media</li>
+              <li>Hard Disk Drive / SSD</li>
+              <li>Windows / Mac / Linux</li>
+            </ul>
+          </div>
+          <button type="button" class="select-buttons">Select</button>
+        </div>
+
+        <div class="packages">
+          <div class="levels" id="package-3">Hardware Repairs</div>
+          <h2>VARIES</h2>
+          <div class="package-list">
+            <ul>
+              <li>Service</li>
+              <li>Restoration</li>
+              <li>Part Replacements</li>
+            </ul>
+          </div>
+          <button type="button" class="select-buttons">Select</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
